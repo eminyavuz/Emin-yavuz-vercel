@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+  user-select:none ;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(54, 49, 43);
+}
+.navbar_container {
+  display: flex;
+  align-self: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(43, 39, 34);
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo-name {
+  color: aliceblue;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.content {
+  padding-top: 10%;
+  padding-left: 8%;
+  display: flex;
+  
+}
+span {
+  color: cadetblue;
+}
+.navbar_container li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+.navbar_container li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.navbar_container u1 li a:hover {
+  color: cadetblue;
+  transition: 0.4s;
+}
+.bttn {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-top: 15%;
+  background-color: #075750; /* Arka plan rengi */
+  border-radius: 50%; /* Daire şekli için */
+  text-align: center;
+  line-height: 120px; /* Metni dikey olarak ortalar */
+  color: #fff;
+  text-decoration: none; /* Metin altını çizme */
+  font-size: 16px; /* Metin boyutu */
+  cursor: pointer;
+}
+.bttn:hover {
+  transform: scale(0.988);
+  background-color: #377072;
+  color: #fff;
+}
+
+h1 {
+  color: aquamarine;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+.github {
+  margin-left: 50%;
+}
+.github_icon {
+  height: 50px;
+}
+.github_icon:hover {
+  height: 49px;
+}
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: rgb(44, 44, 42);
+  margin-bottom: 30;
+}
+.about img {
+  height: auto;
+  width: 430px;
+}
+.about-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2 {
+  color: azure;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: rgb(227, 222, 222);
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p {
+  color: rgb(245, 240, 240);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 19px;
+  margin-bottom: 45px;
+}
+.projects {
+  background: #101010;
+  width: 100%;
+  padding: 100px 0px;
+}
+/* skills bölümünün stilleri */
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left: 100px;
+  padding: 100px 0;
+}
+
+.cont_title {
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-size: 75px;
+}
+
+.skills-container {
+  width: 100%;
+  display: flex;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.skill img {
+  width: 64px;
+  margin-bottom: 5px;
+  height: 64px;
+  
+}
+
+.skill-name {
+  margin: 10px;
+  font-weight: bold;
+  color: #ccc;
+ 
+}
+
+.right-content {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.progress-bar {
+  width: 100px;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+/* İlerleme çubuğu üzerine gelince daha fazla bilgi gösterme */
+.progress-bar:hover .progress-fill {
+  width: 100%;
+}
+
+.title h2 {
+  color: aliceblue;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+}
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #c8bdbd;
+}
+h5 {
+  color: #aea6a6;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: rgb(241, 248, 246);
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.copy {
+  text-align: center;
+  color: #f0ead6;
+}
+.contact {
+  background-color: #2c2d28;
+}
+
+.contact__form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.contact__input::placeholder {
+  color: #999;
+}
+
+.contact__input:focus {
+  border-color: #007bff;
+}
+
+.contact__button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact__button:hover {
+  background-color: #0056b3;
+}
+.cont_title {
+  color: aliceblue;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+}
+
+.footer {
+  background-color: #2c2d28;
+}
+.title_footer {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f0ead6;
+}

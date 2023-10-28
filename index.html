@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="hero">
+      <nav class="navbar_container">
+       
+        <h2 class="logo-name">Emin <span>Yavuz</span></h2>
+        <ul>
+          <li><a href="#home"> Anasayfa </a></li>
+          <li><a href="#about"> Hakkımda </a></li>
+          <li><a href="#skills"> Yeteneklerim </a></li>
+          <li><a href="#projects"> Projelerim </a></li>
+          <li><a href="#contact"> İletişim </a></li>
+        </ul>
+      </nav>
+      <div class="content" id="home">
+        <h1>Merhaba Ben <br /><span>Emin.</span></h1>
+        <a href="mailto:mahmud.eyavuz@gmail.com" class="bttn">İletişime geç</a>
+        <a href="https://github.com/eminyavuz/HTMLVS" target="" rel="noopener noreferrer" class="github">
+          <img class="github_icon" src="github.png" alt="GitHub Profil" />
+        </a>
+      </div>
+
+    </div>
+    <!-----About---->
+    <section class="about" id="about">
+      <div class="main">
+        <img src="imgg.jpg" alt="" />
+        <div class="about-text">
+          <h2>Hakkımda</h2>
+          <h5>Yazılım geliştirici</h5>
+          <p>
+            Lise öğrenimimi Beykoz Anadolu lisesinde birincilikle bitirdim, şu
+            an Süleyman Demirel Üniversitesinde Bilgisayar mühendisliği 3.sınıf
+            öğrencisiyim. C# ve Java üzerinde çalışmalar yaptım. Sürekli kendini
+            yenileyen yazılım dünyasına yenilik katmak için çalışıyorum.
+          </p>
+        </div>
+      </div>
+      <section id="skills">
+        <h2 class="cont_title">Yetenekler</h2>
+        <table class="skills-container skill">
+          <tr>
+            <td>
+              <div class="left-content">
+                <img src="c.png" alt="C Icon" />
+                <div class="skill-name">C</div>
+              </div>
+            </td>
+            <td>
+              <div class="right-content">
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 80%"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="left-content">
+                <img src="csa.png" alt="C# Icon" />
+                <div class="skill-name">C#</div>
+              </div>
+            </td>
+            <td>
+              <div class="right-content">
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 90%"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="left-content">
+                <img src="java.png" alt="Java Icon" class="java" />
+                <div class="skill-name">Java</div>
+              </div>
+            </td>
+            <td>
+              <div class="right-content">
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="left-content">
+                <img src="sql.png" alt="SQL Icon" />
+                <div class="skill-name">SQL</div>
+              </div>
+            </td>
+            <td>
+              <div class="right-content">
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!-------projects------>
+      <div class="projects" id="projects">
+        <div class="title">
+          <h2>Projeler</h2>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card">
+          <i class="contapp"></i>
+          <h5>ContactsApp</h5>
+          <div class="pra">
+            <p>
+              Tanıdıklarınızın numara, adres vb. bilgilerini tutabileceğiniz
+              windows masaüstü uygulamasıdır.bilgilerinizi farklı formatlarda
+              çıktı alabilirsiniz.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contac-me" id="contact"></div>
+
+      <!-- contact-->
+      <section class="contact section" id="contact">
+        <h2 class="cont_title">İletişim</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Ad Soyad" class="contact__input" />
+            <input type="mail" placeholder="E-posta" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Gönder"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+
+      <!--footer-->
+    </section>
+    <footer class="footer">
+      <p class="title_footer">Emin Yavuz</p>
+      <p class="copy">&#169; Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+  </body>
+</html>
